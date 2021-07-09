@@ -19,7 +19,7 @@ services:
       context: . 
       dockerfile: Dockerfile-app
       args: 
-       - buildno=1
+       - buildno="9"
     container_name: rentx
     ports:
       - 3333:3333
